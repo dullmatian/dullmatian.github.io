@@ -1,0 +1,21 @@
+
+label {
+    width: 100%;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input {
+    transition:background-color 0.3s;
+}
+
+.card-input:hover {
+    cursor: pointer;
+    background-color:#FCECCA;
+}
+
+.card-input-element:checked + .card-input {
+    background-color:#FCECCA;
+ }
