@@ -23,14 +23,14 @@
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
   border-width: 0 0 100px 100vw ;
  
-  border-color: transparent transparent #FF9966 transparent;
+  border-color: transparent transparent #e0d3cc transparent;
 }
 
 .section2{
   position: relative;
  
   /*レイアウト用のCSS*/
-  background-color: #FF9966;
+  background-color: #e0d3cc;
 }
 .section2::before{
   content:"";
